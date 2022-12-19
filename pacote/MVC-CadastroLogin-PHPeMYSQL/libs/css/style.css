@@ -1,0 +1,52 @@
+*{margin:0; padding: 0; box-sizing: border-box; font-family: Arial,sans-serif;}
+
+a{text-decoration: none; color: #333;}
+
+.float{float:left;}
+
+.w100{width: 100%;}
+
+.h40{height: 40px;}
+
+.center{text-align: center;}
+
+input[type='email'],input[type='password']{ margin: 15px 0; border: 1px solid #bbb; border-radius: 2px; font-size: 16px; padding: 0 10px; }
+input[type='submit']{ width: 30%; background: #025158; font-weight: bold; color: #fff; border: none; border-radius: 2px; cursor:pointer; }
+input[type='submit']:hover{ opacity: 0.8; }
+
+.fundo{ position:absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('/img/login-tecnologia-webdesign-em-foco-L.jpg') center center no-repeat; background-size: cover; }
+
+.login{ position: absolute; width: 30%; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%,-50%); background: #fff; padding: 30px; }
+.loginTextos{ width: 70%; font-weight: bold; line-height:40px; }
+.resultadoForm{margin-top: 20px; font-weight: bold; color:red; line-height: 20px;}
+
+@media screen and (max-width: 480px){
+    input[type='submit']{ width: 70%;}
+
+    .fundo{background: url('') center center no-repeat; background-size: cover; }
+
+    .login{ width: 90%;}
+    .loginTextos{ width: 100%; margin-top: 10px; text-align: left; }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    input[type='submit']{ width: 40%;}
+
+    .fundo{background: url('') center center no-repeat; background-size: cover; }
+
+    .login{width: 60%;}
+    .loginTextos{width: 60%;}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px){
+    input[type='submit']{ width: 40%; }
+
+    .fundo{background: url('') center center no-repeat; background-size: cover; }
+
+    .login{width: 40%;}
+    .loginTextos{ width: 60%;}
+}
+
+@media screen and (min-width: 1200px){
+
+}
